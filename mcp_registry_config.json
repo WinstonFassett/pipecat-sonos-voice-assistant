@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "Sonos": {
+      "description": "Control Sonos speakers via MCP server",
+      "type": "stdio",
+      "command": "uv",
+      "args": [
+        "run",
+        "sonos-mcp-server"
+      ],
+      "env": {}
+    }
+  }
+}
